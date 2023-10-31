@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web Code Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+
+    <div class="outer-container">
+
+        <div class="top-nav-bar">
+            <button>View HighScores</button>
+            <p>Timer: <span id="timerCountdown">00:00</span></p>
+        </div>
+
+        <div class="inner-container">
+
+            <header class="intro-to-code-quiz">
+                <h1>Coding Quiz Challenge</h1>
+                <p>This quiz will test your knowledge for Coding. Click Start Quiz to begin.</p>
+                <button id="start-btn">Start Quiz</button>
+            </header>
+
+            <main>
+                <section class="quiz-begin">
+                    <h2 id="question">Question Displayed header</h2>
+                    <ol id="answer-buttons">
+                        <li><button>Answer1</button></li>
+                        <li><button>Answer2</button></li>
+                        <li><button>Answer3</button></li>
+                        <li><button>Answer4</button></li>
+                    </ol>
+                    <p id="message"></p>
+                </section>
+
+                <section class="Quiz-Finished">
+                    <h2>Quiz Finished</h2>
+                    <div>
+                        <label form="">Enter Initials:</label>
+                        <input type="text">
+                        <button>Submit </button>
+                    </div>
+                </section>
+
+                <section class="HighScores">
+                    <h2>HighScores: </h2>
+                </section>
+            </main>
+        </div>
+    </div>
+    <script src="./assets/scripts.js"></script>
+</body>
+
+</html>

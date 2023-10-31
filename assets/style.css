@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    /* border: 1px solid red; */
+}
+
+body{
+    background-color: #390b0b;
+}
+
+p {
+    color: white;
+    
+}
+
+button {
+    outline: 3px solid yellow;
+    background-color: black;
+    color: white ;
+}
+.outer-container {
+    padding: 10px;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.top-nav-bar p{
+    float: right;
+}
+
+.inner-container {
+    background-color: black;
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.intro-to-code-quiz {
+    color: white;
+    margin-bottom: 30vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.intro-to-code-quiz p {
+    text-align: center;
+}
+.intro-to-code-quiz button {
+    display: block;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    border-color: 1px white;
+}
+main{
+    display: none;
+    color: white;
+}
+.quiz-begin{
+    text-align: left;
+    font-size: 20px;
+}
+.Quiz-finished {
+    text-align: center;
+}
+
